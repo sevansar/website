@@ -13,18 +13,17 @@ html {
 
   .topnav {
     height: 50mm;
-    background-color: #1F2937;
-    
+    background-color: #1F2937; 
   }
+
   .menu {
-    
      float: right;
      margin-right: 75px;
      display: block;
      padding: 40px;
-     font-size: 14px;
-     
+     font-size: 14px;  
    }
+
   .menu a {
     width: 33%;
   }
@@ -32,8 +31,8 @@ html {
   a:link {
     text-decoration: none;
     color: #ffffff;
-   
-  } 
+   } 
+  
   a:visited {
     text-decoration: none;
     color: #ffffff;
@@ -42,10 +41,14 @@ html {
   
   .row1 {
     display: table-row;
-    height: 30mm; 
-    background-color: #1F2937;
-
+    height: 400px;
   }
+  
+
+.heading2 {
+  text-align: center;
+}
+
   .flex-container {
     display: flex;
     flex-direction: row;
@@ -69,22 +72,47 @@ html {
     }
 }
   .row2 {
-    display: table-row;
-    height: 50mm; 
     background-color:#ffffff;
   }
-.heading2 {
-  text-align: center;
-}
+
+
   .row3 {
     display: table-row;
-    height: 50mm; 
-    background-color:#E5E7EB;
+    height: 75mm; 
+    background-color: #E5E7EB;
+    text-align: center;
+    margin: auto;
+  }
+
+.quote{
+  height: 200px;
+  margin: auto;
+  width: 33%;
+  padding: 10px;
+}
+
+.quote-text {
+  text-align: left;
+  padding: 70px 0;
+  font-style: italic;
+  font-size: 20px;
+  color: #1f2937;
+
+}
+
+
+  .person{
+    padding-left: 300px;
+    position: relative;
+    bottom: 50px;
+    font-weight: bold;
   }
   .row4 {
     display: table-row;
     height: 50mm; 
     background-color:#ffffff;
+    
+    
   }
 
   .footer {
